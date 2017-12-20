@@ -1,0 +1,57 @@
+{
+  "extensions": [
+    {
+      "path": ".activities",
+      "ext_id": "hbauer.menu.delete.activities",
+      "application": "Menu Anpassung",
+      "name": "Delete Activity Link",
+      "description": "Entferne Aktivitaten von der Menueleiste",
+      "id": "ede98c95-e755-4c94-9247-b9e63b6e88ca",
+      "type": "com.ibm.action.delete",
+      "title": "Delete activities Link"
+    },
+    {
+      "path": "com.ibm.navbar.order.95003",
+      "ext_id": "hbauer.hilfe.menu",
+      "application": "Menu Anpassung",
+      "payload": {
+        "id": "hbauerhilfe",
+        "iconUrl": "",
+        "class": "feature",
+        "topMenu": "HilfeMenu"
+      },
+      "name": "HelpMenuContainer",
+      "description": "Menu of help sites",
+      "id": "4d4bd8a9-1d0d-40ea-8e5e-391e00232a34",
+      "type": "com.ibm.action.menu",
+      "title": "News"
+    },
+    {
+      "path": "com.ibm.navbar.order.3500",
+      "ext_id": "hbauer.menu.add.blog",
+      "application": "Menu Anpassung",
+      "payload": {
+        "link": "https://apps.ce.collabserv.com/blogs/45361809-783d-4320-b023-2492851f78c9?lang=de_de",
+        "icon": "",
+        "title": "Blog"
+      },
+      "name": "blog link",
+      "description": "Link auf die Unternehmens News",
+      "id": "6f2f8242-3c0a-4394-bc2a-c2131ad6cf5e",
+      "type": "com.ibm.action.link",
+      "title": "News"
+    }
+  ],
+  "payload": {},
+  "translations": {},
+  "icon": "",
+  "name": "Menu Anpassung",
+  "description": "Change Links",
+  "services": [
+    "TopNavigationBar"
+  ],
+  "id": "ab1367c4-aea1-4b3e-8d8c-e7468b56fbbc",
+  "title": "Menu Anpassung",
+  "app_id": "hbauer.menu",
+  "url": ""
+}
